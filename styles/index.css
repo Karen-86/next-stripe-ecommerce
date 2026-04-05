@@ -1,0 +1,5 @@
+/* PARTIALS */
+@import "../app/globals.css";
+
+/* COMPONENTS */
+@import "../components/header/header.css";

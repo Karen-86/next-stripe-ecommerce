@@ -1,7 +1,8 @@
 const images = {
   logo: "/assets/images/logo.png",
   exampleImage: "/assets/images/example.png",
-  preloader: "/assets/images/preloader.gif"
+  preloader: "/assets/images/preloader.gif",
+  successImage: "/assets/images/success.gif"
 };
 
 const LOCAL_DATA = {

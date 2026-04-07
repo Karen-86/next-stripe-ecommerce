@@ -12,7 +12,7 @@ export async function POST(req: Request) {
 
     const line_items = body.cartProducts.map((product: Product) => ({
       price_data: {
-        currency: "cad",
+        currency: "usd", //cad, amd 
         product_data: { name: product.name },
         unit_amount: product.price, // Stripe expects amount in cents
       },
